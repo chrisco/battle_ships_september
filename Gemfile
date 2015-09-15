@@ -4,8 +4,9 @@ gem 'sinatra'
 
 group :development, :test do
   gem 'capybara'
-  gem 'launchy'
+  gem 'launchy' # Launchy is helper class for launching cross-platform applications in a fire and forget manner https://rubygems.org/gems/launchy
   gem 'rspec'
   gem 'rspec-sinatra'
-  gem 'shotgun'
+  gem 'shotgun' # Reloading Rack development server https://rubygems.org/gems/shotgun
 end
+
